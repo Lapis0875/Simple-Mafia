@@ -1,0 +1,16 @@
+name: Lapis_Plugin
+version: ${project.version}
+main: me.lapis.firstplugin.Main
+api-version: "1.13"
+prefix: LapisPlugin
+authors: [olive_lapis]
+description: "My first minecraft plugin which follows some plugin dev tutorial."
+website: "https://lapisblog.me"
+
+commands:
+  afk:
+    description: "set executor's status as afk. tp executor to afk-location(if not defined, spawn location)"
+    aliases: [afk, awayfromkeyboard, 잠수, 자리비움]
+  info:
+    description: "Show informations of this plugin"
+    aliases: [about, information, 정보]
